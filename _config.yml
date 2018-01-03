@@ -1,26 +1,23 @@
-title: Pertiwi
-subtitle: Food
+title: Pertiwi Consulting
+subtitle: Innovate for Sustainable Futures
 content_is_about: # general content of website, used in footer menu title
 show_logo: show # 'show' or 'hide'
 description: > # this means to ignore newlines until "baseurl:"
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-keywords: template, static, smart, modular
+  Innovate for Sustainable Futures
 lang: en_US
 version: 0.0.1
 
 baseurl: ""
 url: "https://pertiwi.netlify.com"
-qr: show # 'show' or 'hide' put qr.svg in includes/defs.html call it: icn--qr
-menu: short_menu # 'short_menu' or 'long_menu'
 
 company:
-  name: Pertiwi
-  legal_name: Amazing Food Ltd #if need to overrides 'company.name' in footer fill up this one
-  email: info@email.com
-  telephone: 800 12345678
-  fax: 800 12345678
-  address: Somerset House Strand, London WC2R 0RN, UK
-  maplink: https://goo.gl/maps/NBkLEAwkHLF2
+  name: Pertiwi Consulting
+  legal_name: PT. Bina Tjahaja Pertiwi #if need to overrides 'company.name' in footer fill up this one
+  email: info@pertiwi-consulting.com
+  telephone: +62 361 3005263
+  fax: #
+  address: Ibis Styles Business Complex Unit 3-4, Jl. Teuku Umar No. 177, Denpasar 80114 Bali
+  maplink: #
   country: Indonesia
   twitter: #
   facebook_page: #
@@ -69,9 +66,7 @@ exclude:
   - Gemfile.lock
   - node_modules
   - package-lock.json
-  - rokmama.gemspec
   - Gemfile
-  - rakefile
 
 permalink: /:title/ # pretty
 
