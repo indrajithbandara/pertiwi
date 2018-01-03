@@ -16,7 +16,9 @@ company:
   email: info@pertiwi-consulting.com
   telephone: +62 361 3005263
   fax: #
-  address: Ibis Styles Business Complex Unit 3-4, Jl. Teuku Umar No. 177, Denpasar 80114 Bali
+  address_line_1: Ibis Styles Business Complex Unit 3-4
+  address_line_2: Jl. Teuku Umar No. 177, Denpasar
+  address_line_3: 80114 Bali
   maplink: #
   country: Indonesia
   twitter: #

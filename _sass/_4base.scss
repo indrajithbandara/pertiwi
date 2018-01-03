@@ -89,7 +89,6 @@ svg {
   height: 100%;
   position: relative;
   z-index: 8;
-  box-shadow: $header_shadow;
 }
 
 .container {
@@ -166,4 +165,8 @@ p {
 
 blockquote p {
   border-left: 2px solid black;
+}
+
+.brand_color {
+  color: $brand_color;
 }

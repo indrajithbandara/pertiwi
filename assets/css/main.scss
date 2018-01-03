@@ -5,7 +5,7 @@ $font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubu
 
 $black: hsl(0,0%,0%);
 $link_color: hsl(0,0%,0%);
-$bg_color: hsl(0, 0%, 96%);
+$bg_color: hsl(0, 0%, 100%);
 $grey: hsl(0,0%,45%);
 $grey--light: hsl(0,0%,85%);
 $brand_color: #00A1A4; // rgb(0,161,164) - hsla(181, 100%, 32%, 1)
@@ -32,6 +32,11 @@ $card_shadow: 0px 0px 2px 0px rgba($black,0.12), 0px 2px 2px 0px rgba($black,0.2
 $card_shadow--hover: 0px 0px 8px 0px rgba($black,0.12), 0px 8px 8px 0px rgba($black,0.24);
 
 $transition_shadow: box-shadow 0.2s ease;
+
+// buttons
+$black_stroke: hsl(0,0%,60%);
+$button_focus_bg: hsla(0, 0%, 91%, 1);
+$button_book: $brand_color; // hsl(205, 100%, 51%);
 
 //// Predefined Break-points
 $mediaMinWidth: 600px;
