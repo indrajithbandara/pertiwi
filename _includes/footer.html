@@ -2,32 +2,39 @@
 
   <div class="container">
 
-    <div class="address">
+    <div class="title">
+      <span class="brand_color">{{site.title}}</span>
+      <span class="hide_on_phones">/</span> <br class="break_on_phones">
+      <span>{{site.company.legal_name}}</span>
+    </div>
 
-      <div class="title">
-        <span class="brand_color">{{site.title}}</span> /
-        <span>{{site.company.legal_name}}</span>
+    <div class="footer_block flex_row">
+
+      {% include svg/use.html id="icn--location" class="location" %}
+
+      <div class="location_text">
+
+        <div class="">{{site.company.address_line_1}}</div>
+
+        <div class="">{{site.company.address_line_2}}</div>
+
+        <div class="">{{site.company.address_line_3}}, {{site.company.country}}</div>
+
       </div>
 
-      <div class="">{{site.company.address_line_1}}</div>
-
-      <div class="">{{site.company.address_line_2}}</div>
-
-      <div class="">{{site.company.address_line_3}}, {{site.company.country}}</div>
-
     </div>
 
-
-
-    <div class="contacts">
-
-      <div class="email">{{site.company.email}}</div>
-
-      <div class="telephone">{{site.company.telephone}}</div>
-
+    <div class="footer_block flex_row">
+      {% include svg/use.html id="icn--email" class="email" %}
+      <span><a href="mailto:{{site.company.email}}">{{site.company.email}}</a></span>
     </div>
 
-    <div class="copyright">Copyright © {{ "now" | date: "%Y" }} {{site.company.legal_name}}. All rights reserved. <br class="break_on_phones"> Powered by <a href="https://junglestar.org">Junglestar</a></div>
+    <div class="footer_block flex_row">
+      {% include svg/use.html id="icn--localphone" class="localphone" %}
+      <span>{{site.company.telephone}}</span>
+    </div>
+
+    <div class="footer_block copyright">Copyright © {{ "now" | date: "%Y" }} {{site.company.legal_name}}. All rights reserved. <br class="break_on_phones"> Powered by <a href="https://junglestar.org">Junglestar</a></div>
 
   </div>
 

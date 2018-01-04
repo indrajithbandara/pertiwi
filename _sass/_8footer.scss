@@ -34,10 +34,8 @@
     padding-top: $vertical_rhythm;
     padding-bottom: $vertical_rhythm/6;
     margin-bottom: $vertical_rhythm/6;
-    border-bottom: 1px solid $grey;
     width: 100%;
     @include media( "screen", ">minWidth") {
-      border-bottom: 0 none;
       padding-top: 0;
       width: auto;
     }
@@ -63,6 +61,9 @@
 
 .copyright {
   font-size: 10px;
-  padding-top: $vertical_rhythm;
-  margin-top: $vertical_rhythm;
+  padding-top: $vertical_rhythm--small;
+}
+
+.footer_block {
+  margin-top: $vertical_rhythm--small;
 }
