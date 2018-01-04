@@ -42,8 +42,16 @@
     height: 50vw;
     margin-bottom: $vertical_rhythm--small;
     @include media( "screen", ">minWidth") {
+      width: 40vw;
+      height: 40vw;
+    }
+    @include media( "screen", ">bp1Width") {
       width: 30vw;
       height: 30vw;
+    }
+    @include media( "screen", ">maxWidth") {
+      width: 20vw;
+      height: 20vw;
     }
   }
 
