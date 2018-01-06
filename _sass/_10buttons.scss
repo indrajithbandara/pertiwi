@@ -8,7 +8,7 @@
     padding-top: $vertical_rhythm;
     padding-bottom: $vertical_rhythm;
     text-align: center;
-    @include media( "screen", ">bp1Width") {
+    @include media("screen", ">bp1Width") {
       text-align: left;
     }
   }

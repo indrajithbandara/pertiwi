@@ -4,13 +4,21 @@
   z-index: 10;
 
   .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     padding: $vertical_rhythm/2 $vertical_rhythm;
   }
-
 
   .logo_block {
     //a
@@ -31,7 +39,7 @@
     &:hover {
       border-bottom: 0 none;
     }
-    @include media( "screen", ">minWidth") {
+    @include media("screen", ">minWidth") {
       padding-bottom: 0;
     }
   }
@@ -41,15 +49,15 @@
     width: 50vw;
     height: 50vw;
     margin-bottom: $vertical_rhythm--small;
-    @include media( "screen", ">minWidth") {
+    @include media("screen", ">minWidth") {
       width: 40vw;
       height: 40vw;
     }
-    @include media( "screen", ">bp1Width") {
+    @include media("screen", ">bp1Width") {
       width: 30vw;
       height: 30vw;
     }
-    @include media( "screen", ">maxWidth") {
+    @include media("screen", ">maxWidth") {
       width: 20vw;
       height: 20vw;
     }
@@ -61,11 +69,10 @@
     margin: 0;
     padding: 0;
     text-align: center;
-    @include media( "screen", ">bp1Width") {
+    @include media("screen", ">bp1Width") {
       margin-right: $vertical_rhythm;
     }
   }
-
 }
 
 .subtitle {

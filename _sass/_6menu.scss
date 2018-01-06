@@ -16,10 +16,8 @@
     align-items: center;
     margin: 0;
 
-    &:hover,
-    &:focus {
-
-    }
+    &:focus,
+    &:hover {}
 
     span {
       white-space: nowrap;

@@ -2,13 +2,13 @@
 
   <div class="container">
 
-    <div class="title">
+    <div class="title tilted">
       <span class="brand_color">{{site.title}}</span>
       <span class="hide_on_phones">/</span> <br class="break_on_phones">
       <span>{{site.company.legal_name}}</span>
     </div>
 
-    <div class="footer_block flex_row">
+    <div class="footer_block flex_row tilted">
 
       {% include svg/use.html id="icn--location" class="location" %}
 
@@ -24,17 +24,17 @@
 
     </div>
 
-    <div class="footer_block flex_row">
+    <div class="footer_block flex_row tilted">
       {% include svg/use.html id="icn--email" class="email" %}
       <span><a href="mailto:{{site.company.email}}">{{site.company.email}}</a></span>
     </div>
 
-    <div class="footer_block flex_row">
+    <div class="footer_block flex_row tilted">
       {% include svg/use.html id="icn--localphone" class="localphone" %}
       <span>{{site.company.telephone}}</span>
     </div>
 
-    <div class="footer_block copyright">Copyright © {{ "now" | date: "%Y" }} {{site.company.legal_name}}. All rights reserved. <br class="break_on_phones"> Powered by <a href="https://junglestar.org">Junglestar</a></div>
+    <div class="footer_block copyright">Copyright © {{ "now" | date: "%Y" }} {{site.company.legal_name}}. <br class="break_on_phones">All rights reserved. <br class="break_on_phones"> Powered by <a href="https://junglestar.org">Junglestar</a></div>
 
   </div>
 

@@ -22,7 +22,6 @@ nav[aria-label="Secondary"] {
   }
 }
 
-
 .nav__link {
   display: block;
   width: 5vw;
@@ -39,11 +38,11 @@ nav[aria-label="Secondary"] {
     height: 60px;
     fill: $grey--light;
   }
+
   &:hover svg {
     fill: $grey;
   }
 }
-
 
 .nav__posttitle {
   -webkit-transition: opacity 0.3s ease-out;
@@ -51,7 +50,7 @@ nav[aria-label="Secondary"] {
   position: absolute;
   font-size: 130%;
   font-weight: 500;
-  @include media( "screen", ">maxWidth") {
+  @include media("screen", ">maxWidth") {
     position: fixed;
     top: 50%;
   }
@@ -68,8 +67,6 @@ nav[aria-label="Secondary"] {
   top: -2.5rem;
   opacity: 0;
 }
-
-
 //BEM MODIFIERS
 .nav__link--left {
   left: 1rem;

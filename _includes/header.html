@@ -2,6 +2,18 @@
 
   <div class="container">
 
+    {% if page.title == 'home' %}
+
+    <div class="logo_block group" href="/" title="{{ site.title }}">
+
+      <h1 class="hide">{{ site.title }}</h1>
+
+      {% include svg/use.html id="icn--logo" class="logo" %}
+
+    </div>
+
+    {% else %}
+
     <a class="logo_block group" href="/" title="{{ site.title }}">
 
       <h1 class="hide">{{ site.title }}</h1>
@@ -10,7 +22,9 @@
 
     </a>
 
-    <h2 class="subtitle">{{site.subtitle}}</h2>
+    {% endif %}
+
+    <h2 class="subtitle tilted">{{site.subtitle}}</h2>
 
   </div>
 
