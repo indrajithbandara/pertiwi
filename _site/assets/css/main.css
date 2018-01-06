@@ -342,6 +342,9 @@ blockquote p {
   -webkit-transform: rotate(-5.5deg);
   transform: rotate(-5.5deg); }
 
+.brand_color {
+  color: #00A1A4; }
+
 h1,
 h2,
 h3,
