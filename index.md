@@ -1,6 +1,6 @@
 ---
 layout: default
-title: home
+title: Welcome
 description: #
 image: /assets/p/pertiwi_logo.jpg
 ---
