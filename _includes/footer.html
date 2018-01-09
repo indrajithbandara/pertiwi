@@ -29,7 +29,7 @@
 
     <div class="footer_block flex_row flex_align_center">
       {% include svg/use.html id="icn--localphone" class="localphone" %}
-      <span>{{site.company.telephone}}</span>
+      <span><a href="tel:{{site.company.telephone}}" title="{{site.company.telephone}}">{{site.company.telephone}}</a></span>
     </div>
 
     <div class="footer_block copyright">Copyright © {{ "now" | date: "%Y" }} {{site.company.legal_name}}. <br class="break_on_phones">All rights reserved. <br class="break_on_phones"> Powered by <a href="https://junglestar.org">Junglestar</a></div>
