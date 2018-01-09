@@ -195,6 +195,10 @@ blockquote p {
   align-items: center;
 }
 
+.flex_align_center {
+  justify-content: center;
+}
+
 .tilted {
   -webkit-transform: rotate(-5.5deg);
   transform: rotate(-5.5deg);

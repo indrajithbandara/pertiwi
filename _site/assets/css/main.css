@@ -338,6 +338,9 @@ blockquote p {
   -ms-flex-align: center;
   align-items: center; }
 
+.flex_align_center {
+  justify-content: center; }
+
 .tilted {
   -webkit-transform: rotate(-5.5deg);
   transform: rotate(-5.5deg); }
@@ -428,7 +431,9 @@ h3 {
     -ms-flex-pack: start;
     justify-content: flex-start;
     margin-bottom: 0;
-    border-bottom: 0 none; }
+    border-bottom: 0 none;
+    padding-top: 2rem;
+    margin-bottom: 2rem; }
     .header .logo_block:hover {
       border-bottom: 0 none; }
     @media only screen and (min-width: 601px) {

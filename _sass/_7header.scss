@@ -35,6 +35,9 @@
     margin-bottom: 0;
     // no underline here
     border-bottom: 0 none;
+    padding-top: $vertical_rhythm;
+    margin-bottom: $vertical_rhythm;
+
 
     &:hover {
       border-bottom: 0 none;
