@@ -4,10 +4,6 @@
 <!DOCTYPE html>
 <html lang="{% if page.lang %}{{page.lang}}{% else %}{{site.lang}}{% endif %}">
 
-  {% if site.google.analytics %}
-    {% include script_google_analytics.html %}
-  {% endif %}
-
   {% include head.html %}
 
   <body class="{{page.title | slugify}} {% if site.menu %}{{ site.menu }}{% endif %}">
